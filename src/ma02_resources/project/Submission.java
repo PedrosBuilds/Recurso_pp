@@ -1,19 +1,24 @@
-    //
-    // Source code recreated from a .class file by IntelliJ IDEA
-    // (powered by FernFlower decompiler)
-    //
+/*
+ * Nome: Pedro Marques
+ * Número: 8190750
+ * Turma: LSIRC12T2
+ *
+ * Nome: Francisco Faria
+ * Número: 8180335
+ * Turma: LSIRC12T2
+ */
 
-    package ma02_resources.project;
+package ma02_resources.project;
 
-    import java.time.LocalDateTime;
-    import ma02_resources.participants.Student;
+import java.time.LocalDateTime;
+import ma02_resources.participants.Student;
 
-    public interface Submission extends Comparable<Submission> {
-        LocalDateTime getDate();
+public interface Submission extends Comparable<Submission> {
+    LocalDateTime getDate();
 
-        Student getStudent();
+    Student getStudent();
 
-        String getText();
+    String getText();
 
-        int compareTo(Submission var1);
-    }
+    int compareTo(Submission var1);
+}
